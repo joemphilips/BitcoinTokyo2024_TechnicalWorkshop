@@ -9,11 +9,9 @@ services:
       - -port=39388
       - -whitelist=0.0.0.0/0
       - -regtest=1
-      - -rest
-      - -rpcallowip=::/0
+      - -rpcallowip=0.0.0.0/0
       - -rpcpassword=bar
       - -rpcuser=foo
-      - -server
       - -fallbackfee=0.00001
     environment:
       BITCOIN_EXTRA_ARGS: |
