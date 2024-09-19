@@ -1,3 +1,3 @@
-#!/usr/env/bin bash
+#!/usr/bin/env bash
 
-docker compose exec -it bitcoin bitcoin-cli -regtest -rpchost
+docker compose exec -it bitcoind /opt/bitcoin/bin/bitcoin-cli -regtest -rpcport=43782 -rpcpassword=bar -rpcuser=foo $@
