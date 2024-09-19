@@ -1,0 +1,5 @@
+nunchuk-*
+SHA256SUM*
+docker/bitcoin_datadir
+
+**/target
