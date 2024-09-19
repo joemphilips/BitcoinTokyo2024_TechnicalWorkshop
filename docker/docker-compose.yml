@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   bitcoind:
     restart: always
@@ -16,6 +14,7 @@ services:
       - -rpcpassword=bar
       - -rpcuser=foo
       - -server
+      - -fallbackfee=0.00001
     environment:
       BITCOIN_EXTRA_ARGS: |
         rpcport=43782
