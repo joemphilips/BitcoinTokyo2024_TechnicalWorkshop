@@ -1,5 +1,5 @@
 nunchuk-*
 SHA256SUM*
-docker/bitcoin_datadir
+**/bitcoin_datadir
 
 **/target
